@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-public abstract class Entity : MonoBehaviour
+using System;
+public class Entity : MonoBehaviour
 {
     public bool canBeSelected;
     public bool canMove;
+    public bool canBeInteractedWith;
+    [SerializeField] private bool interacting;
+    [SerializeField] protected Entity interactingEntity;
     public GameObject selector;
     public NavMeshAgent agent;
+    public Action<GameObject> OnInteract;
     public void OnSelected()
     {
         Debug.Log(gameObject.name + " is Selected");
@@ -17,12 +22,14 @@ public abstract class Entity : MonoBehaviour
     {
         selector?.gameObject.SetActive(false);
     }
-    public void MoveTo(Vector3 movepos)
+    public virtual void MoveTo(Vector3 movepos)
     {
         if (canMove) agent?.SetDestination(movepos);
     }
-    public void InteractWith(GameObject g)
+    public virtual void InteractWith(GameObject g)
     {
-
+        OnInteract?.Invoke(g);
+        if (interactingEntity != null) interactingEntity = null;
+        interactingEntity = g.GetComponent<Entity>();
     }
 }

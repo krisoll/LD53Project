@@ -85,8 +85,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBeSelected: 1
   canMove: 1
+  canBeInteractedWith: 0
+  interacting: 0
+  interactingEntity: {fileID: 0}
   selector: {fileID: 5882962280766105902}
   agent: {fileID: 5882962280617633554}
+  resourceLimit: 10
+  isFull: 0
+  isGoingToExtractResources: 0
+  extractionRate: 1
+  currentResource:
+    type: 0
+    quantity: 0
+  target: {fileID: 0}
+  stateName: 
 --- !u!1 &5882962280762966901
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5882962280766105902}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.321, z: 0}
+  m_LocalPosition: {x: 0, y: -0.325, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5882962280617633553}

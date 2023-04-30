@@ -52,12 +52,13 @@ public class InputManager : MonoBehaviour
                     unit.MoveTo(Hit.point);
                 }
             }
-            if (Physics.Raycast(Camera.ScreenPointToRay(Input.mousePosition), out RaycastHit HitI, 200, FloorLayers))
+            if (Physics.Raycast(Camera.ScreenPointToRay(Input.mousePosition), out RaycastHit HitI, 200, InteractableLayers))
             {
                 hitpointPlace = HitI.point;
                 foreach (Entity unit in SelectionManager.Instance.SelectedUnits)
                 {
                     unit.InteractWith(HitI.collider.gameObject);
+                    Debug.Log("Unit " + unit.gameObject.name + " starts interaction with " + HitI.collider.gameObject.name);
                 }
             }
         }

@@ -11,11 +11,13 @@ public class ResourceEntity : Entity
 {
     [SerializeField]
     private bool isBeingExtracted;
+    public ResourceType type;
     public ResourceEntity StartExtracting()
     {
         return this;
     }
 }
+[System.Serializable]
 public class Resource
 {
     public ResourceType type;
