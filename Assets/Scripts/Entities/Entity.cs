@@ -21,4 +21,8 @@ public abstract class Entity : MonoBehaviour
     {
         if (canMove) agent?.SetDestination(movepos);
     }
+    public void InteractWith(GameObject g)
+    {
+
+    }
 }

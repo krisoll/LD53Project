@@ -15,6 +15,8 @@ public class InputManager : MonoBehaviour
     [SerializeField]
     private LayerMask FloorLayers;
     [SerializeField]
+    private LayerMask InteractableLayers;
+    [SerializeField]
     private float DragDelay = 0.1f;
 
     private float MouseDownTime;
@@ -22,7 +24,15 @@ public class InputManager : MonoBehaviour
 
     private HashSet<Entity> newlySelectedUnits = new HashSet<Entity>();
     private HashSet<Entity> deselectedUnits = new HashSet<Entity>();
-
+    private Vector3 hitpointPlace;
+    private void Awake()
+    {
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawCube(hitpointPlace, Vector3.one);
+    }
     private void Update()
     {
         HandleSelectionInputs();
@@ -33,11 +43,21 @@ public class InputManager : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Mouse1) && SelectionManager.Instance.SelectedUnits.Count > 0)
         {
-            if (Physics.Raycast(Camera.ScreenPointToRay(Input.mousePosition), out RaycastHit Hit, FloorLayers))
+
+            if (Physics.Raycast(Camera.ScreenPointToRay(Input.mousePosition), out RaycastHit Hit, 200, FloorLayers))
             {
+                hitpointPlace = Hit.point;
                 foreach (Entity unit in SelectionManager.Instance.SelectedUnits)
                 {
                     unit.MoveTo(Hit.point);
+                }
+            }
+            if (Physics.Raycast(Camera.ScreenPointToRay(Input.mousePosition), out RaycastHit HitI, 200, FloorLayers))
+            {
+                hitpointPlace = HitI.point;
+                foreach (Entity unit in SelectionManager.Instance.SelectedUnits)
+                {
+                    unit.InteractWith(HitI.collider.gameObject);
                 }
             }
         }
