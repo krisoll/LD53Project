@@ -1,0 +1,622 @@
+fileFormatVersion: 2
+guid: 8618a15a9c3ddbd479075f56e4f7111c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5772343275969406079
+    second: TreesNOres_0
+  - first:
+      213: -4735599592104720562
+    second: TreesNOres_1
+  - first:
+      213: 4151218868201630241
+    second: TreesNOres_2
+  - first:
+      213: 1731632595300548819
+    second: TreesNOres_3
+  - first:
+      213: 9005248588617847948
+    second: TreesNOres_4
+  - first:
+      213: -4671162532789681763
+    second: TreesNOres_5
+  - first:
+      213: 8128171071044552046
+    second: TreesNOres_6
+  - first:
+      213: -828038858937381820
+    second: TreesNOres_7
+  - first:
+      213: 2467453762576494384
+    second: TreesNOres_8
+  - first:
+      213: -8517824783138925234
+    second: TreesNOres_9
+  - first:
+      213: 1521135822493195984
+    second: TreesNOres_10
+  - first:
+      213: 7253140615963667940
+    second: TreesNOres_11
+  - first:
+      213: -634001596951938027
+    second: TreesNOres_12
+  - first:
+      213: -4813984862472394281
+    second: TreesNOres_13
+  - first:
+      213: 1318023207200424406
+    second: TreesNOres_14
+  - first:
+      213: -5606869035237432065
+    second: TreesNOres_15
+  - first:
+      213: 9081469329201664181
+    second: TreesNOres_16
+  - first:
+      213: -3997218115803511184
+    second: TreesNOres_17
+  - first:
+      213: 5929788734953388164
+    second: TreesNOres_18
+  - first:
+      213: 376585011291807230
+    second: TreesNOres_19
+  - first:
+      213: -5239685801985743220
+    second: TreesNOres_20
+  - first:
+      213: -7017849755307372441
+    second: TreesNOres_21
+  - first:
+      213: -3055473675254890640
+    second: TreesNOres_22
+  - first:
+      213: 2101161650767197739
+    second: TreesNOres_23
+  - first:
+      213: 5353911597023965068
+    second: TreesNOres_24
+  - first:
+      213: 2579666745449566517
+    second: TreesNOres_25
+  - first:
+      213: 8361208395732080262
+    second: TreesNOres_26
+  - first:
+      213: -8962877746080103844
+    second: TreesNOres_27
+  - first:
+      213: -1190001061805088551
+    second: TreesNOres_28
+  - first:
+      213: 5948351922995385980
+    second: TreesNOres_29
+  - first:
+      213: 3271724876115395279
+    second: TreesNOres_30
+  - first:
+      213: 6893029903008661897
+    second: TreesNOres_31
+  - first:
+      213: -1894782734438557824
+    second: TreesNOres_32
+  - first:
+      213: -8293958407113043287
+    second: TreesNOres_33
+  - first:
+      213: 6977143897164990415
+    second: TreesNOres_34
+  - first:
+      213: -9060958997913022858
+    second: TreesNOres_35
+  - first:
+      213: -3454701061418913316
+    second: TreesNOres_36
+  - first:
+      213: -3398251320569559562
+    second: TreesNOres_37
+  - first:
+      213: 6353027758236328753
+    second: TreesNOres_38
+  - first:
+      213: 5330214894144217989
+    second: TreesNOres_39
+  - first:
+      213: 3862757906253942768
+    second: TreesNOres_40
+  - first:
+      213: -397599720902257861
+    second: TreesNOres_41
+  - first:
+      213: -1192132079318592923
+    second: TreesNOres_42
+  - first:
+      213: 5886468215442238557
+    second: TreesNOres_43
+  - first:
+      213: -7599426497704784648
+    second: TreesNOres_44
+  - first:
+      213: 356667717258795249
+    second: TreesNOres_45
+  - first:
+      213: 2977401412053018180
+    second: TreesNOres_46
+  - first:
+      213: 4828580989387924406
+    second: TreesNOres_47
+  - first:
+      213: 3249908955800101616
+    second: TreesNOres_48
+  - first:
+      213: 1377399060867837094
+    second: TreesNOres_49
+  - first:
+      213: -1375737548634939914
+    second: TreesNOres_50
+  - first:
+      213: 1647520900973902784
+    second: TreesNOres_51
+  - first:
+      213: -3033085807953358153
+    second: TreesNOres_52
+  - first:
+      213: -748530665144355402
+    second: TreesNOres_53
+  - first:
+      213: -8619063961723327375
+    second: TreesNOres_54
+  - first:
+      213: 5127715946986106392
+    second: TreesNOres_55
+  - first:
+      213: -1282751764628497708
+    second: TreesNOres_56
+  - first:
+      213: 2094736091418937368
+    second: TreesNOres_57
+  - first:
+      213: -2410601455843648233
+    second: TreesNOres_58
+  - first:
+      213: 4776188775986756368
+    second: TreesNOres_59
+  - first:
+      213: 4417042213040617646
+    second: TreesNOres_60
+  - first:
+      213: 1270312808866492509
+    second: TreesNOres_61
+  - first:
+      213: -2204408578313281667
+    second: TreesNOres_62
+  - first:
+      213: 1841593252441497418
+    second: TreesNOres_63
+  - first:
+      213: 7301605791986252139
+    second: TreesNOres_64
+  - first:
+      213: 5738938039761336652
+    second: TreesNOres_65
+  - first:
+      213: 6938046122767480905
+    second: TreesNOres_66
+  - first:
+      213: -1273152158158591489
+    second: TreesNOres_67
+  - first:
+      213: -6967043263690565023
+    second: TreesNOres_68
+  - first:
+      213: -12836476135910118
+    second: TreesNOres_69
+  - first:
+      213: -2362771574198855295
+    second: TreesNOres_70
+  - first:
+      213: 3040481295441285069
+    second: TreesNOres_71
+  - first:
+      213: 6467076769486820738
+    second: TreesNOres_72
+  - first:
+      213: -4006644583285924251
+    second: TreesNOres_73
+  - first:
+      213: -4123721967122170631
+    second: TreesNOres_74
+  - first:
+      213: -3607804064012253052
+    second: TreesNOres_75
+  - first:
+      213: -4063647047636802570
+    second: TreesNOres_76
+  - first:
+      213: -4162088701022716994
+    second: TreesNOres_77
+  - first:
+      213: -6178367797364731752
+    second: TreesNOres_78
+  - first:
+      213: 7069997835221372966
+    second: TreesNOres_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TreesNOres_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b9a3aaf5484efa0800000000000000
+      internalID: -5772343275969406079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07686c54d470788c0800000000000000
+      internalID: -3997218115803511184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f503fbbd6cf6d0d0800000000000000
+      internalID: -3398251320569559562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b57590735fac95f0800000000000000
+      internalID: -748530665144355402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da105ef010c23ee0800000000000000
+      internalID: -1282751764628497708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bf5ece26e684240800000000000000
+      internalID: 4776188775986756368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f18805e47ae8910800000000000000
+      internalID: 1841593252441497418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff96feb8bdad45ee0800000000000000
+      internalID: -1273152158158591489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1550cffa4562dff0800000000000000
+      internalID: -12836476135910118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf4ff801a5f13a20800000000000000
+      internalID: 3040481295441285069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc353528b895c6c0800000000000000
+      internalID: -4123721967122170631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreesNOres_78
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890dc520937024aa0800000000000000
+      internalID: -6178367797364731752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
